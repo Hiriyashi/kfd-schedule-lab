@@ -1,0 +1,132 @@
+{
+  "generator": "v3",
+  "commands": {
+    "clean.txt/period": {
+      "code": 0,
+      "expected": "clean.period.expected",
+      "bytes": 8499,
+      "sha256": "f8a13049827d368b244d6beb7c17403c43f7231975a0e965ea6ca62fbc540c8f"
+    },
+    "clean.txt/type": {
+      "code": 0,
+      "expected": "clean.type.expected",
+      "bytes": 3112,
+      "sha256": "39419d5094687d2c9bb947e37fde9600c097431364bc379a3a4270d656494fb7"
+    },
+    "clean.txt/errors": {
+      "code": 0,
+      "expected": "clean.errors.expected",
+      "bytes": 19,
+      "sha256": "a82b09526c09926ace51e38b66d02e4750eef059dabfbaa203c593851fda5b4e"
+    },
+    "dirty.txt/period": {
+      "code": 1,
+      "expected": "dirty.period.expected",
+      "bytes": 14817,
+      "sha256": "5f69f0c02c3360a84c6406e1230ed25b51a5410fad8632ed7a919cb4742a5ec9"
+    },
+    "dirty.txt/type": {
+      "code": 1,
+      "expected": "dirty.type.expected",
+      "bytes": 73,
+      "sha256": "6606ee082d9a6324cc52b9798831b048c66d424a036707b841ed4c98a2658ee2"
+    },
+    "dirty.txt/errors": {
+      "code": 1,
+      "expected": "dirty.errors.expected",
+      "bytes": 6558,
+      "sha256": "bcd6f5fdb1ed9d7473c116129a9e356be2a7160a73b816399ffbb08a2e64bc5c"
+    },
+    "empty.txt/period": {
+      "code": 0,
+      "expected": "empty.period.expected",
+      "bytes": 9,
+      "sha256": "22b877ca1c56d233cfcd292a680ae792e300a5dd5878321697c1ff0492e835cf"
+    },
+    "empty.txt/type": {
+      "code": 0,
+      "expected": "empty.type.expected",
+      "bytes": 9,
+      "sha256": "22b877ca1c56d233cfcd292a680ae792e300a5dd5878321697c1ff0492e835cf"
+    },
+    "empty.txt/errors": {
+      "code": 0,
+      "expected": "empty.errors.expected",
+      "bytes": 17,
+      "sha256": "fe055fe3ba58e7a605e9b42606b2e26303b4a74d71dfb127a7b56c5a0184d3f7"
+    },
+    "huge.txt/period": {
+      "code": 0,
+      "bytes": 104000015,
+      "sha256": "a38d93c6eda2b808ef367693965048e92c76fdedf7c62144ce9e0fc81358f57d"
+    },
+    "huge.txt/type": {
+      "code": 0,
+      "bytes": 9,
+      "sha256": "22b877ca1c56d233cfcd292a680ae792e300a5dd5878321697c1ff0492e835cf"
+    },
+    "huge.txt/errors": {
+      "code": 0,
+      "bytes": 23,
+      "sha256": "9464ace11f962aef19f19d059875761f2e6435152250a3a46027fd3018629627"
+    }
+  },
+  "files": {
+    "clean.errors.expected": {
+      "bytes": 19,
+      "sha256": "a82b09526c09926ace51e38b66d02e4750eef059dabfbaa203c593851fda5b4e"
+    },
+    "clean.expected": {
+      "bytes": 8499,
+      "sha256": "f8a13049827d368b244d6beb7c17403c43f7231975a0e965ea6ca62fbc540c8f"
+    },
+    "clean.period.expected": {
+      "bytes": 8499,
+      "sha256": "f8a13049827d368b244d6beb7c17403c43f7231975a0e965ea6ca62fbc540c8f"
+    },
+    "clean.txt": {
+      "bytes": 9094,
+      "sha256": "d24328a275f920419af6be40c4572011e53efa29dcbc89c1c395b6b95c69f529"
+    },
+    "clean.type.expected": {
+      "bytes": 3112,
+      "sha256": "39419d5094687d2c9bb947e37fde9600c097431364bc379a3a4270d656494fb7"
+    },
+    "dirty.errors.expected": {
+      "bytes": 6558,
+      "sha256": "bcd6f5fdb1ed9d7473c116129a9e356be2a7160a73b816399ffbb08a2e64bc5c"
+    },
+    "dirty.october.expected": {
+      "bytes": 207,
+      "sha256": "47781937c02ee22fde73d072a22eb9fdf7a2920c1c609112acb77079b7bf589a"
+    },
+    "dirty.period.expected": {
+      "bytes": 14817,
+      "sha256": "5f69f0c02c3360a84c6406e1230ed25b51a5410fad8632ed7a919cb4742a5ec9"
+    },
+    "dirty.txt": {
+      "bytes": 21679,
+      "sha256": "fa644b10fbecec7dc3ea620b8bbd7a2bee94f6ead94fc36dc941fc1a5aab790f"
+    },
+    "dirty.type.expected": {
+      "bytes": 73,
+      "sha256": "6606ee082d9a6324cc52b9798831b048c66d424a036707b841ed4c98a2658ee2"
+    },
+    "empty.errors.expected": {
+      "bytes": 17,
+      "sha256": "fe055fe3ba58e7a605e9b42606b2e26303b4a74d71dfb127a7b56c5a0184d3f7"
+    },
+    "empty.period.expected": {
+      "bytes": 9,
+      "sha256": "22b877ca1c56d233cfcd292a680ae792e300a5dd5878321697c1ff0492e835cf"
+    },
+    "empty.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "empty.type.expected": {
+      "bytes": 9,
+      "sha256": "22b877ca1c56d233cfcd292a680ae792e300a5dd5878321697c1ff0492e835cf"
+    }
+  }
+}

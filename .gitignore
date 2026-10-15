@@ -1,0 +1,8 @@
+.gradle/
+.kotlin/
+**/build/
+samples/huge.txt
+verification/
+.idea/
+*.iml
+__pycache__/
